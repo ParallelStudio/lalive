@@ -1,0 +1,99 @@
+global notes:
+need master volume controls for:
+corridor PAs
+corridor pendants
+sizzle/live
+keynote
+bar PA
+bar Pendant
+
+also need a master for all except keynote
+plus a big button for pre-keynote behaviors (and for bringing stuff back after)
+
+corridor: all (mono) sound files play locked together as a 12 bar loop. (except the things at the end of the corridoor which will phase at the end)
+
+probably each chord will pan down the whole corridor (not sure of direction) - need to be ready to change panning behavior as makes sense on site (maybe from the center out)
+
+chord/woosh is comprised of:
+reverse cymbal sound
+1 bass thing <-- this is probably only in PA speakers - may pan may not setup for both/either
+2 medium chords(can be bounced together)
++ 2 high chords (can be bounced together
+tape feedback -maybe slightly different pan behavior (following or opposite dir)
+
+sonar thing:
+pan (discretely) to new pendant speaker linearly in between each ping
+maybe pings are opposite direction of chords
+
+bumps / noisy kick thing:
+need to pan (discretely) to new PA speakers in between bumps
+maybe also opposite direction as well
+
+end of corridor: (the last 3 pendants)
+fairy dust (constant) - 3 separate mono files that will just loop in 2 chords that are 
+jingles - same thing - 3 files
+chirps - same - 3 files
+high drone - single mono file, routed to last 3 pendants
+lower drone - single mono file, routed to last 3 pendants
+---------------------------------------------------------
+
+feed / sizzle (potentially we might be asked to feed bar sounds to sizzle zone - be prepared for that possibility)
+5 individual mono loops looping and play through all speakers - live-sizzle-soundname-PA
+
+------------------------------------
+
+bar - 45ish minute mono loops (locked to lobby)
+8 (2 concentric circles)  and 4 pas
+
+any pans need to kinda phase
+
+pendant
+phasing:
+pings - discretely changes from pendant to pendant - can be randomly selected
+pongs - same (opposite if ends up at the same pendant as a ping or ding)
+dings - same (ok if ends up at the same pendant as pong or ping)
+chirps - fast pan around all pendants - maybe a weave pattern (13,24,16,18,20,19)
+
+locked long loops:
+beatslap - same pan as chirps but a bit slower
+stutter - same as beatslap
+med blurb - same kinda pan thing as beatslap and stutter
+high blurb - same
+bells - pans across room left to right. maybe 13, 14+15, 16+17, 18+19, 20
+cymbals - similar but pans north to south 16, 14-18, 13-20, 15-19, 17
+blurb2 - same as beatslap
+swish notes - 2 mono files each looping in half of the pendants (13,14,15 and 18,19,20)
+high drone - similar to swish - channels specified in filename
+underwater - beatslap pan pattern
+
+pa
+booms - mono and in all 4
+kicks - mono and in all 4
+basshits - "
+bassbit - "
+rhythmbass - "
+strings - "
+drums- "
+porta - "
+arppegio - "
+shaker - "
+quiet notes - "
+
+
+bassline - 2 mono files each playing in 2 speakers
+melody - "
+dingbeat - "
+
+
+keynote - 33-36 get feed/sizzle.. may need to pipe some other bar sounds over there
+
+at 7:50 corridor, sizzle and bar sounds fade out and ppl have 10 minutes to be seated for keynote.
+the only sound is the sizzle sounds that are in the keynote zone
+
+
+
+
+
+
+
+
