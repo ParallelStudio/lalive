@@ -13,7 +13,7 @@
 #X obj 213 178 loadbang;
 #X text 242 203 init vol;
 #X obj 68 574 *~;
-#X obj 32 529 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 32 529 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 32 501 r \$0-headphones;
 #X obj 105 203 elooper~;
@@ -41,7 +41,7 @@
 #X obj 507 178 loadbang;
 #X text 536 203 init vol;
 #X obj 362 574 *~;
-#X obj 326 524 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 326 524 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 326 501 r \$0-headphones;
 #X obj 399 203 elooper~;
@@ -50,7 +50,7 @@
 #X obj 449 496 throw~ c23;
 #X msg 447 124 corridor_higherdrone_21_22_23;
 #X obj 571 34 s \$0-headphones;
-#X obj 573 9 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+#X obj 573 9 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
 ;
 #X obj 697 151 r \$0-start;
 #X obj 766 150 r \$0-stop;
@@ -66,7 +66,7 @@
 #X obj 805 175 loadbang;
 #X text 834 200 init vol;
 #X obj 660 571 *~;
-#X obj 624 526 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 624 526 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 624 498 r \$0-headphones;
 #X obj 697 200 elooper~;
@@ -85,7 +85,7 @@
 #X obj 1099 175 loadbang;
 #X text 1128 200 init vol;
 #X obj 954 571 *~;
-#X obj 918 521 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 918 521 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 918 498 r \$0-headphones;
 #X obj 991 200 elooper~;
@@ -105,7 +105,7 @@
 #X text 1394 202 init vol;
 #X obj 1220 573 *~;
 #X obj 1184 523 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X obj 1184 500 r \$0-headphones;
 #X obj 1257 202 elooper~;
 #X obj 1307 495 throw~ c23;
@@ -131,7 +131,7 @@
 #X obj 177 810 loadbang;
 #X text 206 835 init vol;
 #X obj 32 1206 *~;
-#X obj -4 1161 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj -4 1161 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj -4 1133 r \$0-headphones;
 #X obj 69 835 elooper~;
@@ -151,7 +151,7 @@
 #X text 500 835 init vol;
 #X obj 326 1206 *~;
 #X obj 290 1156 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X obj 290 1133 r \$0-headphones;
 #X obj 363 835 elooper~;
 #X obj 396 1105 throw~ c22;
@@ -170,7 +170,7 @@
 #X text 766 837 init vol;
 #X obj 592 1208 *~;
 #X obj 556 1158 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X obj 556 1135 r \$0-headphones;
 #X obj 629 837 elooper~;
 #X obj 679 1130 throw~ c23;
@@ -212,7 +212,7 @@
 #X text 1339 838 init vol;
 #X obj 1165 1209 *~;
 #X obj 1129 1159 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X obj 1129 1136 r \$0-headphones;
 #X obj 1202 838 elooper~;
 #X obj 1235 1108 throw~ c22;
@@ -231,7 +231,7 @@
 #X text 1605 840 init vol;
 #X obj 1431 1211 *~;
 #X obj 1395 1161 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X obj 1395 1138 r \$0-headphones;
 #X obj 1468 840 elooper~;
 #X obj 1518 1133 throw~ c23;
@@ -243,6 +243,7 @@
 #X msg 1516 761 corridor_jingles_23;
 #X obj 194 -13 r corridor;
 #X obj 194 12 sel 0 1;
+#X obj 573 -20 inlet;
 #X connect 0 0 5 0;
 #X connect 1 0 2 0;
 #X connect 2 0 15 0;
@@ -449,3 +450,4 @@
 #X connect 218 0 219 0;
 #X connect 219 0 22 0;
 #X connect 219 1 21 0;
+#X connect 220 0 45 0;

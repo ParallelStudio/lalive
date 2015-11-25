@@ -51,6 +51,7 @@
 #X obj 448 327 delay 800;
 #X text 608 166 this will skip steps unless we get exact measurements
 and do it with disrete delay objects;
+#X obj 496 -43 inlet;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 2 0 13 0;
@@ -94,3 +95,4 @@ and do it with disrete delay objects;
 #X connect 40 0 42 0;
 #X connect 41 0 38 0;
 #X connect 42 0 18 0;
+#X connect 44 0 26 0;

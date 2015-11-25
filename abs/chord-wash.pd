@@ -1,4 +1,4 @@
-#N canvas 81 383 1596 903 10;
+#N canvas 64 87 1596 903 10;
 #X obj 228 1236 linear_panner_12ch~, f 27;
 #X obj 228 932 volume~;
 #X obj 335 1179 auto_pan;
@@ -301,6 +301,7 @@
 #X msg 1560 824 corridor_chords3_pendants;
 #X obj 195 -25 r corridor;
 #X obj 195 0 sel 0 1;
+#X obj 571 -13 inlet;
 #X connect 0 0 7 0;
 #X connect 0 1 7 1;
 #X connect 0 2 7 2;
@@ -673,3 +674,4 @@
 #X connect 276 0 277 0;
 #X connect 277 0 12 0;
 #X connect 277 1 10 0;
+#X connect 278 0 141 0;

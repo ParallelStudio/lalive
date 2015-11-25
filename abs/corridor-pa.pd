@@ -63,6 +63,7 @@
 #X obj 733 337 delay 7151;
 #X obj 743 362 delay 17020;
 #X obj 757 387 delay 26295;
+#X obj 575 -13 inlet;
 #X connect 0 0 5 0;
 #X connect 1 0 2 0;
 #X connect 2 0 16 0;
@@ -124,3 +125,4 @@
 #X connect 54 0 52 0;
 #X connect 55 0 52 0;
 #X connect 56 0 52 0;
+#X connect 57 0 23 0;

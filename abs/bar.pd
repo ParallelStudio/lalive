@@ -1,2 +1,9 @@
-#N canvas 0 22 450 300 10;
-#X obj 101 113 bar_pendants;
+#N canvas 160 462 450 300 10;
+#X obj 51 109 bar_pendants;
+#X obj 144 108 bar_loops;
+#X obj 216 108 bar_pa_loops;
+#X obj 95 52 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X text 117 52 headphone monitor;
+#X connect 3 0 0 0;
+#X connect 3 0 1 0;

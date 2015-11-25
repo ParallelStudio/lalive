@@ -1,5 +1,12 @@
-#N canvas 262 177 707 283 10;
+#N canvas 374 275 707 283 10;
 #X obj 141 119 chord-wash;
 #X obj 327 120 corridor-end;
 #X obj 211 119 corridor-pa;
 #X obj 287 119 sonar;
+#X obj 228 66 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X text 247 65 headphone monitor;
+#X connect 4 0 0 0;
+#X connect 4 0 2 0;
+#X connect 4 0 3 0;
+#X connect 4 0 1 0;
