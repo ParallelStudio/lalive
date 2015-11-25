@@ -1,0 +1,55 @@
+#N canvas 0 22 1596 837 10;
+#X obj 225 114 r \$0-start;
+#X obj 294 113 r \$0-stop;
+#X msg 294 137 stop;
+#X obj 212 606 throw~ devL;
+#X obj 289 606 throw~ devR;
+#X obj 225 137 t b b;
+#X obj 318 193 timer;
+#X text 377 218 file length;
+#X obj 318 219 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 29190.7 256;
+#X obj 225 189 volume~;
+#X msg 333 161 1;
+#X obj 333 138 loadbang;
+#X text 362 163 init vol;
+#X obj 188 534 *~;
+#X obj 152 489 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 152 461 r \$0-headphones;
+#X obj 225 163 elooper~;
+#X msg 273 84 corridor_bass_pa;
+#X obj 194 58 s \$0-start;
+#X obj 194 38 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 264 38 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 264 58 s \$0-stop;
+#X obj 571 34 s \$0-headphones;
+#X obj 573 9 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 194 -13 r corridor;
+#X obj 194 12 sel 0 1;
+#X connect 0 0 5 0;
+#X connect 1 0 2 0;
+#X connect 2 0 16 0;
+#X connect 5 0 16 0;
+#X connect 5 1 17 0;
+#X connect 6 0 8 0;
+#X connect 9 0 13 0;
+#X connect 10 0 9 1;
+#X connect 11 0 10 0;
+#X connect 13 0 3 0;
+#X connect 13 0 4 0;
+#X connect 14 0 13 1;
+#X connect 15 0 14 0;
+#X connect 16 0 9 0;
+#X connect 16 1 6 0;
+#X connect 16 2 6 1;
+#X connect 17 0 16 2;
+#X connect 19 0 18 0;
+#X connect 20 0 21 0;
+#X connect 23 0 22 0;
+#X connect 24 0 25 0;
+#X connect 25 0 20 0;
+#X connect 25 1 19 0;

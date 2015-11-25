@@ -1,0 +1,35 @@
+#N canvas 0 22 909 446 10;
+#X obj 360 133 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 348 107 1;
+#X msg 376 107 0;
+#X obj 334 157 nozip;
+#X obj 420 133 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 408 107 1;
+#X msg 436 107 0;
+#X obj 394 157 nozip;
+#X obj 82 0 inlet~;
+#X text 135 -1 audio in;
+#X obj 330 7 inlet;
+#X obj 348 85 sel 0;
+#X obj 408 85 sel 1;
+#X text 375 10 incoming number 0-4 exclusively turns on audio channel
+;
+#X obj 380 295 cor_headphone_thrower, f 27;
+#X connect 0 0 3 1;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 14 0;
+#X connect 4 0 7 1;
+#X connect 5 0 4 0;
+#X connect 6 0 4 0;
+#X connect 7 0 14 1;
+#X connect 8 0 3 0;
+#X connect 8 0 7 0;
+#X connect 10 0 11 0;
+#X connect 10 0 12 0;
+#X connect 11 0 1 0;
+#X connect 11 1 2 0;
+#X connect 12 0 5 0;
+#X connect 12 1 6 0;

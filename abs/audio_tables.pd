@@ -1,0 +1,87 @@
+#N canvas 560 78 776 670 10;
+#X obj 279 20 inlet;
+#X obj 258 444 outlet;
+#X obj 26 22 table bar_arpeggio_pa;
+#X obj 26 42 table bar_basshits_pa;
+#X obj 26 62 table bar_bassline_pa;
+#X obj 26 82 table bar_beatslap_pendants;
+#X obj 26 102 table bar_chirps_pendants;
+#X obj 26 122 table bar_dings_pendants;
+#X obj 26 142 table bar_medblurb_pendants;
+#X obj 26 162 table bar_pings_pendants;
+#X obj 26 182 table bar_pongs_pendants;
+#X obj 26 202 table bar_quietnotes_pa;
+#X obj 26 222 table bar_stutter_pendants;
+#X obj 26 242 table ceo_bass_33_34_35_36;
+#X obj 26 262 table ceo_strings_33_34;
+#X obj 26 282 table ceo_strings_35_36;
+#X obj 26 302 table corridor_bass_pa;
+#X obj 26 322 table corridor_bumps_pa;
+#X obj 26 342 table corridor_chirps_21;
+#X obj 26 362 table corridor_chirps_22;
+#X obj 26 382 table corridor_chirps_23;
+#X obj 26 402 table corridor_chords1_pendants;
+#X obj 26 422 table corridor_chords2_pendants;
+#X obj 26 442 table corridor_chords3_pendants;
+#X obj 26 482 table corridor_fairydust_22;
+#X obj 26 462 table corridor_fairydust_21;
+#X obj 26 502 table corridor_fairydust_23;
+#X obj 26 522 table corridor_hichords1_pendants;
+#X obj 26 542 table corridor_hichords2_pendants;
+#X obj 26 562 table corridor_hichords3_pendants;
+#X obj 26 582 table corridor_higherdrone_21_22_23;
+#X obj 26 602 table corridor_jingles_21;
+#X obj 26 622 table corridor_jingles_22;
+#X obj 26 642 table corridor_jingles_23;
+#X obj 26 662 table corridor_lowerdrone_21_22_23;
+#X obj 26 682 table corridor_reversecymbals1_pendants;
+#X obj 26 702 table corridor_reversecymbals2_pendants;
+#X obj 26 722 table corridor_sonar_pendants;
+#X obj 26 742 table corridor_tapeloop_pendants;
+#X obj 26 762 table sizzlefeedkeynote_hissdrone_allPA;
+#X obj 26 782 table sizzlefeedkeynote_rhodes1_allPA;
+#X obj 26 802 table sizzlefeedkeynote_rhodes2_allPA;
+#X obj 26 822 table sizzlefeedkeynote_rhodes3_allPA;
+#X obj 26 842 table sizzlefeedkeynote_rhodessweeps_allPA;
+#X obj 26 862 table sizzlefeedkeynote_yesdrone_allPA;
+#X msg 345 27 list bar_arpeggio_pa bar_basshits_pa bar_bassline_pa
+bar_beatslap_pendants bar_chirps_pendants bar_dings_pendants bar_medblurb_pendants
+bar_pings_pendants bar_pongs_pendants bar_quietnotes_pa bar_stutter_pendants
+ceo_bass_33_34_35_36 ceo_strings_33_34 ceo_strings_35_36 corridor_bass_pa
+corridor_bumps_pa corridor_chirps_21 corridor_chirps_22 corridor_chirps_23
+corridor_chords1_pendants corridor_chords2_pendants corridor_chords3_pendants
+corridor_fairydust_21 corridor_fairydust_22 corridor_fairydust_23 corridor_hichords1_pendants
+corridor_hichords2_pendants corridor_hichords3_pendants corridor_higherdrone_21_22_23
+corridor_jingles_21 corridor_jingles_22 corridor_jingles_23 corridor_lowerdrone_21_22_23
+corridor_reversecymbals1_pendants corridor_reversecymbals2_pendants
+corridor_sonar_pendants corridor_tapeloop_pendants sizzlefeedkeynote_hissdrone_allPA
+sizzlefeedkeynote_rhodes1_allPA sizzlefeedkeynote_rhodes2_allPA sizzlefeedkeynote_rhodes3_allPA
+sizzlefeedkeynote_rhodessweeps_allPA sizzlefeedkeynote_yesdrone_allPA
+bar_blurb2_pendants bar_booms_pa bar_bassbit_pa bar_bells_pendants
+bar_cymbals_pendants bar_dingbeat_pa bar_drums_pa bar_hiblurb_pendants
+bar_hidrone_pendants bar_kick_pa bar_medblurb_pendants bar_melody_pa
+bar_porta_pa bar_rhythmbass_pa bar_shaker_pa bar_strings_pa bar_stutter_pendants
+bar_swishnotes_13_14_15 bar_swishnotes_18_19_20 bar_underwater_pendants
+;
+#X obj 351 599 table bar_blurb2_pendants;
+#X obj 351 620 table bar_booms_pa;
+#X obj 351 661 table bar_bells_pendants;
+#X obj 351 640 table bar_bassbit_pa;
+#X obj 350 682 table bar_cymbals_pendants;
+#X obj 350 703 table bar_dingbeat_pa;
+#X obj 350 723 table bar_drums_pa;
+#X obj 350 744 table bar_hiblurb_pendants;
+#X obj 350 765 table bar_hidrone_pendants;
+#X obj 350 786 table bar_kick_pa;
+#X obj 350 806 table bar_medblurb_pendants;
+#X obj 350 827 table bar_melody_pa;
+#X obj 349 848 table bar_porta_pa;
+#X obj 349 869 table bar_rhythmbass_pa;
+#X obj 349 889 table bar_shaker_pa;
+#X obj 349 910 table bar_strings_pa;
+#X obj 349 930 table bar_stutter_pendants;
+#X obj 349 951 table bar_swishnotes_13_14_15;
+#X obj 349 971 table bar_swishnotes_18_19_20;
+#X obj 349 992 table bar_underwater_pendants;
+#X connect 0 0 45 0;
+#X connect 45 0 1 0;
