@@ -7,3 +7,4 @@
 #X text 117 52 headphone monitor;
 #X connect 3 0 0 0;
 #X connect 3 0 1 0;
+#X connect 3 0 2 0;

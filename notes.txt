@@ -1,3 +1,128 @@
+bar is the bar. 
+
+ceo is the sound that will trigger 30 seconds before ceo takes the stage.
+
+All of Bar is at same tempo as Corridor.  They should be locked.  Will this be a problem considering the length of the bar file?  It is a giant loop at 97bpm, but I want to make sure the bar and corridor remain locked for the duration of the night.
+
+Below are more detailed notes for switching between speakers.  I didn't outline everything in the corridor.  Wasn't sure if you wanted me to list times for safe/unsafe on chords etc. -  or if you could take care of that?  Let me know.
+
+
+Corridor
+
+Bumps
+0:07.151 - 0:07.337 safe to move to new speaker
+0:17.020 - 0:17.298 safe to move to new speaker
+0:26.935 - 0:27.190 safe to move to new speaker
+
+Sonar
+this one is annoying - call me for details...
+starting at 1.082 it is unsafe for 1.082 and then safe for .154
+
+0:00.000 - 0:00.927 NOT SAFE to move to new speaker
+0:00.927 - 0:01.082 safe to move to new speaker
+0:01.082 - 0:02.164 NOT SAFE to move to new speaker
+
+ 
+Bar...
+
+Pings
+not locked to tempo - phases against rest of bar
+each hit comes from a different speaker 
+
+0:08-0:10 safe to move to new speaker
+0:22-0:24 safe to move to new speaker
+0:34-0:36 safe to move to new speaker
+0:44-0:46 safe to move to new speaker
+0:54-0:56 safe to move to new speaker
+1:08-1:10 safe to move to new speaker
+1:22-1:24 safe to move to new speaker
+1:34-1:36 safe to move to new speaker
+1:44-1:46 safe to move to new speaker
+1:54-1:56 safe to move to new speaker
+2:04-2:06 safe to move to new speaker
+
+Pongs
+not locked to tempo - phases against rest of bar
+each hit comes from a different speaker 
+
+0:11-0:13 safe to move to new speaker
+0:20-0:22 safe to move to new speaker
+0:30-0:32 safe to move to new speaker
+0:40-0:42 safe to move to new speaker
+0:52-0:54 safe to move to new speaker
+1:04-1:06 safe to move to new speaker
+1:14-1:16 safe to move to new speaker
+1:27-1:29 safe to move to new speaker
+1:42-1:44 safe to move to new speaker
+1:52-1:54 safe to move to new speaker
+2:00-2:01 safe to move to new speaker 
+
+Dings
+not locked to tempo - phases against rest of bar
+each hit comes from a different speaker 
+
+0:16-0:18 safe to move to new speaker
+0:35-0:37 safe to move to new speaker
+0:56-0:58 safe to move to new speaker
+1:17-1:19 safe to move to new speaker
+1:34-1:36 safe to move to new speaker
+1:54-1:56 safe to move to new speaker
+2:12-2:14 safe to move to new speaker
+
+Chirps
+rotates quickly through all pendants in the bar
+
+
+WE need to know specifically how long each pan is.
+msg format is:
+0, 1 PANLENGTH PANSTART
+
+tapeloop - currently doing smooth pans - should this be jumping around instead?
+0:06.000-0:06.500 safe to move to new speaker
+0:16.500-0:017.000 safe to move to new speaker
+0:27.000-0:27.500 safe to move to new speaker
+
+hichords1
+0:26.540 / 26540 sound starts
+0:04.500 / 31040 bulk of sound ends before fade out begins
+0:15.000 / 15000 sound goes completely silent
+
+hichords2
+0:06.878 / 6878 sound starts
+0:14.500 / 14500 bulk of sound ends before fade out begins
+0:24.500 / 24500 sound goes completely silent
+
+hichords3
+0:16.718 / 16718 sound starts
+0:24.400 bulk of sound ends before fade out begins
+0:5.500 sound goes completely silent
+
+Chords1
+0:02.438 sound starts
+0:23.591 bulk of sound ends before fade out begins
+0:12.000 sound goes completely silent
+
+Chords 2
+0:12.353  sound starts
+0:22.500 bulk of sound ends before fade out begins
+0:05.200 sound goes completely silent
+
+Chords 3
+0:22.300  sound starts
+0:02.000 bulk of sound ends before fade out begins
+0:14.210 sound goes completely silent
+
+revercymbals1
+0:19.725  sound starts
+0:02.500 bulk of sound ends before fade out begins
+0:14.000 sound goes completely silent
+
+revercymbals2
+0:02.500  sound starts
+0:08.500 bulk of sound ends before fade out begins
+0:22.941 sound goes completely silent
+
+
 global notes:
 need master volume controls for:
 corridor PAs

@@ -1,5 +1,5 @@
-#N canvas 207 23 894 453 10;
-#X obj 380 309 output_stage;
+#N canvas 53 184 1028 669 10;
+#X obj 395 450 output_stage;
 #X obj 471 48 audio_tables_loader;
 #X obj 471 24 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -12,7 +12,22 @@
 #X obj 400 192 bar;
 #X obj 264 47 s bar;
 #X obj 476 192 sizzle_feed;
+#X obj 685 351 ceo;
+#X obj 685 279 bng 30 250 50 0 empty empty ceo 0 -7 0 15 -260097 -1
+-1;
+#X obj 683 150 bng 30 250 50 0 empty empty seating_fade 0 -7 0 15 -257985
+-1 -1;
+#X obj 690 432 bng 30 250 50 0 empty empty resume 0 -7 0 15 -4034 -1
+-1;
+#X obj 701 199 s seating_fade;
+#X obj 715 317 s ceo_fade;
+#X obj 735 486 s resume_all;
+#X obj 413 333 fade_logic;
 #X connect 1 0 3 0;
 #X connect 2 0 1 0;
 #X connect 6 0 5 0;
 #X connect 6 0 8 0;
+#X connect 11 0 10 0;
+#X connect 11 0 15 0;
+#X connect 12 0 14 0;
+#X connect 13 0 16 0;
